@@ -1,0 +1,20 @@
+.section{
+    padding-bottom: 40px;
+}
+.section__header{
+    padding:40px;
+    display:flex;
+    justify-content: center;
+}
+.section__h2{
+    font-size:70px;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 400;
+    color:#eee;
+}
+.section__wrapper{
+    display:flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}

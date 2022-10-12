@@ -1,0 +1,42 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.header{
+    height:100vh;
+    width:100%;
+    background: linear-gradient(to bottom right, rgba(71, 45, 45, 0.2),rgba(85, 57, 57, 0.2)),url('/public/image/pexels-chevanon-photography-302899.jpg');
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:40px;
+    text-align:center;
+}
+.header__h1{
+    font-size: 120px;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 400;
+}
+.header__h2{
+    font-size:60px;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 400;
+}
+.header__button{
+    font-size: 25px;
+    background-color: #A77979;
+    border:none;
+    padding:10px 40px;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    text-transform: uppercase;
+    transition: 0.2s;
+}
+.header__button:hover{
+    background:hsl(0, 21%, 46%) ;
+    cursor:pointer;
+}

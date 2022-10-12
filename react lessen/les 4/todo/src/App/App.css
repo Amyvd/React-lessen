@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size:62.5%; /* 1rem = 16px  */
+}
+
+body{
+
+    font-size: 2rem;
+    background:linear-gradient(to bottom right,#E38B29,#FFD8A9);
+}
+#root{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height:100vh;
+}
