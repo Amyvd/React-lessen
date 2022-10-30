@@ -1,16 +1,52 @@
 import "./ToDo.css";
-const  ToDo = () =>{
+const  ToDo = (props) =>{
+
+    const tasks = [
+        {
+            name: "Groceries",
+            done: false,
+        },
+        {
+            name: "Stydying",
+            done: true,
+        },
+        {
+            name: "Walk The Dog",
+            done: false,
+        },
+        {
+            name: "Text myself",
+            done: false,
+        },
+        {
+            name: "code awessome stuff",
+            done: false,
+        },
+        {
+            name: "henk",
+            done: false,
+        },
+        
+    ];
+
+    let todoClick = () => {
+        console.log("ik ben geklickt jeey!");
+    }
+
+    let listItems = tasks.map( task => {
+        if(task.done === true){
+            return <li  onClick={todoClick} className="todo__item todo__item--done">{task.name}</li>;
+        }
+        return <li onClick={todoClick} className="todo__item">{task.name}</li>;
+    });
+    console.log(listItems);
     return(
         <article className="todo">
-            <header class="todo__header">
-                <h1 class="todo__heading">Things to do:</h1>
+            <header className="todo__header">
+                <h1 className="todo__heading">Things to do:</h1>
             </header>
             <ul className="todo__list">
-                <li className="todo__item">Groceries</li>
-                <li className="todo__item">Stydying</li>
-                <li className="todo__item">Walk The Dog</li>
-                <li className="todo__item">Text myself</li>
-                <li className="todo__item">code awessome stuff</li>
+                {listItems}
             </ul>
         </article>
     )

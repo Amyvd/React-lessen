@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400&display=swap');
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -12,6 +14,10 @@ body{
 
     font-size: 2rem;
     background:linear-gradient(to bottom right,#E38B29,#FFD8A9);
+    font-family: 'Comfortaa', cursive;
+    font-weight:400;
+    
+
 }
 #root{
     display: flex;
