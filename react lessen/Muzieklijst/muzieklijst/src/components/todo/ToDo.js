@@ -45,6 +45,7 @@ class ToDo extends React.Component{
             let toBeAdded = [
                 {
                     name: inputFromInputComponent,
+                    artiest: "",
                     done: false,
                     id:100
                 },
@@ -63,13 +64,13 @@ class ToDo extends React.Component{
 
     render(){
         let items = this.state.tasks.map(task =>{
-            return <Item done={task.done}name={task.name} key={task.id}></Item>
+            return <Item artiest={task.artiest}done={task.done}name={task.name} key={task.id}></Item>
         });
        
         return(
             <article  className="todo">
                 <header className="todo__header">
-                    <h1 className="todo__heading">Things to do:</h1>
+                    <h1 className="todo__heading">MuziekLijst</h1>
                 </header>
                 <ul className="todo__list">
                     {items}
