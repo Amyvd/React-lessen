@@ -1,0 +1,21 @@
+.dashboard__wrapper{
+    padding:4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.dashboard__nav{
+
+}
+
+.dashboard__ul{
+    list-style:none;
+    display: flex;
+    flex-direction: column;
+    gap:2rem;
+}
+
+.dashoard__button{
+    width:20rem;
+    height:5rem;
+}

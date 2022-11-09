@@ -1,0 +1,110 @@
+.pokemonCard{
+    width:35rem;
+    height:45rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    border-radius: 1.5rem;
+    padding:2rem;
+}
+
+.pokemonCard__header{
+    height:20%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items:center;
+}
+
+.pokemonCard__title{
+    font-size: 200%;
+    font-weight:400;
+}
+
+.pokemonCard__labelwrapper{
+    display:flex;
+    gap:0.5rem;
+}
+
+.pokemonCard__type{
+    font-size: 70%;
+    background-color: yellow;
+    padding:0.2rem;
+    border-radius: 2rem;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:8rem;
+}
+
+.pokemonCard__type--Grass{
+    background: #3CCF4E;
+}
+
+.pokemonCard__type--Poison{
+    background: #92BA92;
+}
+
+.pokemonCard__type--Fire{
+    background: #E43F5A;
+}
+
+.pokemonCard__type--Water{
+    background:#1597BB;
+}
+.pokemonCard__type--Electric{
+    background:#FFD369;
+}
+
+.pokemonCard__section{
+    height:60%;
+}
+.pokemonCard__figure{
+    height:80%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pokemonCard__img{
+    height:100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.pokemonCard__h3wrapper{
+    display: flex;
+    align-items: center;
+}
+
+.pokemonCard__HP{
+    font-weight: 400;
+    font-size: 90%;
+}
+
+.pokemonCard__footer{
+    height:20%;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    gap:2rem;
+}
+
+.pokemonCard__button{
+    border:none;
+    background:none;
+    font-size:100%;
+    padding:0.5rem 4rem;
+    border-radius: 1.5rem;
+    flex-grow: 1;
+    cursor: pointer;
+}
+.pokemonCard__button--Attack{
+    background-color: #FF6464;
+}
+.pokemonCard__button--Catch{
+    background-color: #91C483;
+}
+@media screen and (max-width: 62.5rem) {
+    .pokemonCard{
+        width:100%;
+    }
+  }

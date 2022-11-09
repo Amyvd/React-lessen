@@ -1,0 +1,27 @@
+.counterCard{
+    width:50%;
+    height:90rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1.5rem;
+}
+.counterCard__h2{
+    font-size: 800%;
+    font-weight: 400;
+}
+@media screen and (max-width: 62.5rem) {
+    .counterCard{
+        position: fixed;
+        top:2rem;
+        right:2rem;
+        width:2rem;
+        height:2rem;
+        border-radius: 50%;
+    }
+    .counterCard__h2{
+        font-size: 200%;
+        font-weight: 400;
+    }
+  }
