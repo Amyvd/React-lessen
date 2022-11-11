@@ -3,6 +3,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    gap:30rem; 
 }
 .dashboard__nav{
 
@@ -15,7 +16,35 @@
     gap:2rem;
 }
 
+.dashboard__li{}
+
+a,a:visited,a:link, a:active{
+    text-decoration: none;
+    color:#eee;
+}
+.dashboard__link{
+    display:flex;
+}
+.dashboard__message{
+    width:2rem;
+    height:2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 80%;
+    transform:translateY(-5px);
+    background:linear-gradient(to bottom right, #29A19C,60%, #A3F7BF);
+    color:black;
+}
 .dashoard__button{
     width:20rem;
     height:5rem;
+    font-size: 100%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    background:linear-gradient(to bottom right, #29A19C,60%, #A3F7BF);
+    border:none;
+    border-radius: 5rem;
+
 }

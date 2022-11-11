@@ -1,18 +1,28 @@
 import "./LeftPanel.css";
-const LeftPanel = (props) =>{
+const LeftPanel = ({NavigationListItem, buttonText}) =>{
+    let toBeRenderedNavigationListItems = NavigationListItem.map(object => {
+        
+        let message = null;
+        if(object.message > 0){
+            message = <div className="dashboard__message">{object.message}</div>
+        }
+
+        return(
+        <li key={object.name}className="dashboard__li">
+            <a href="" className="dashboard__link">{object.name}{message}</a>
+            
+        </li>
+        );
+    })
     return(
        <div>
             <section className="dashboard__wrapper">
                 <nav className="dashboard__nav">
                         <ul className="dashboard__ul">
-                            <li className="dashboard__li"><a href="" className="dashboard__link">Home</a></li>
-                            <li className="dashboard__li"><a href="" className="dashboard__link">Facturen</a></li>
-                            <li className="dashboard__li"><a href="" className="dashboard__link">Bestellingen</a></li>
-                            <li className="dashboard__li"><a href="" className="dashboard__link">Retour</a></li>
-                            <li className="dashboard__li"><a href="" className="dashboard__link">Contact</a></li>
+                            {toBeRenderedNavigationListItems}
                         </ul>
                 </nav>
-                <button className="dashoard__button">Go Premium now biatch</button>
+                <button className="dashoard__button">{buttonText || "Click Here"}</button>
             </section>
        </div>
     );

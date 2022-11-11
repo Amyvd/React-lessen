@@ -13,6 +13,9 @@ html{
 
 body{
     font-size: 2rem;
+    padding:3rem;
+    background:linear-gradient(to bottom right, #29A19C,60%, #A3F7BF);
+    min-height: 100vh;
 }
 
 #root{
