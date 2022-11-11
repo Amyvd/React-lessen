@@ -6,7 +6,7 @@ const Intro = () => {
         <section className="intro">
             <div className="intro__headingContainer">
                 <h1 className="intro__heading">Welkom bij deze vragenlijst</h1>
-                <p className="intro__text">Er komen zo 8 vragen over mij (Scott), beantwoord deze vragen alstjeblieft zo eerlijk mogelijk.</p>
+                <p className="intro__text">Er komen zo 8 vragen over mij (Amy), beantwoord deze vragen alstjeblieft zo eerlijk mogelijk.</p>
             </div>
             <p className="intro__text"><Link to="/vragen/1">Klik Hier om de quiz te starten</Link> </p>
 
