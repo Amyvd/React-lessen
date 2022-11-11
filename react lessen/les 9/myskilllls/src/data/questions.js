@@ -1,21 +1,21 @@
 const questions= [
     {
         "number": 1,
-        "question": "Hoe goed vond je me in programeren?",
+        "question": "Hoe lekker is kip?",
         "rating": 0,
         "previous": "/",
         "next": "2",
     },
     {
         "number": 2,
-        "question": "Hoe goed vind je me nu in programmeren?",
+        "question": "Wat vindt je van mijn Programmeer skills?",
         "rating": 0,
         "previous": "1",
         "next": "3",
     },
     {
         "number": 3,
-        "question": "Hoe mooi zijn mijn ogen?",
+        "question": "Hoe mooi vindt je mijn Neus?",
         "rating": 0,
         "previous": "2",
         "next": "4",
@@ -29,14 +29,14 @@ const questions= [
     },
     {
         "number": 5,
-        "question": "Hoe grappig ben jij?",
+        "question": "Hoe grappig vind je De hofman Broers?",
         "rating": 0,
         "previous": "4",
         "next": "6",
     },
     {
         "number": 6,
-        "question": "Heeft Colin een vriendin?",
+        "question": "Heeft Sander een vriendin?",
         "rating": 0,
         "previous": "5",
         "next": "7",
@@ -50,7 +50,7 @@ const questions= [
     },
     {
         "number": 8,
-        "question": "Sinasappelsap of apelsaap",
+        "question": "Patat of Friet",
         "rating": 0,
         "previous": "7",
         "next": "/outro",
