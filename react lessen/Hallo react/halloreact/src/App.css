@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Roboto:wght@100&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background:linear-gradient( to bottom right, #ECC5FB,45%,#FAF4B7);
+    height:100vh;
+    font-family: sans-serif;
+    padding:40px;
+}
+#root{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    gap: 50px;
+    flex-wrap:wrap;
+}
